@@ -1,7 +1,0 @@
-#main-grid {
-  grid-template-areas:
-    "header introduction introduction portfolio"
-    "career skills skills portfolio"
-    "career skills skills portfolio"
-    "three three three four";
-}
