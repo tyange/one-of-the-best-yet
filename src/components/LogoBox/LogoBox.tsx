@@ -70,7 +70,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
   return (
     <div class="relative" style={{ "grid-area": areaName }}>
       <Logo
-        isDrag={isDrag}
         src="/images/logo/react-original.svg"
         position="left-10 top-7"
         dragStart={dragStart}
@@ -79,7 +78,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/vuejs-original.svg"
         position="right-10 top-9"
         dragStart={dragStart}
@@ -88,7 +86,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/solidjs.svg"
         position="top-28 left-24"
         dragStart={dragStart}
@@ -97,7 +94,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/flutter-logo.svg"
         position="bottom-11 right-5"
         dragStart={dragStart}
@@ -106,7 +102,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/tailwindcss-plain.svg"
         position="top-32 right-6"
         dragStart={dragStart}
@@ -115,7 +110,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/angular_gradient.png"
         position="top-24 left-3"
         dragStart={dragStart}
@@ -124,7 +118,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/typescript.png"
         position="bottom-24 left-20"
         dragStart={dragStart}
@@ -133,7 +126,6 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
         dragEnd={dragEnd}
       />
       <Logo
-        isDrag={isDrag}
         src="/images/logo/golang.png"
         position="bottom-10 left-10"
         dragStart={dragStart}

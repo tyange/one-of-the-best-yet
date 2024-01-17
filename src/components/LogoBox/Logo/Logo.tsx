@@ -1,7 +1,6 @@
 import { Accessor } from "solid-js";
 
 interface LogoProps {
-  isDrag: Accessor<boolean>;
   src: string;
   position: string;
   dragStart: (e: DragEvent) => void;
@@ -11,7 +10,6 @@ interface LogoProps {
 }
 
 export default function Logo({
-  isDrag,
   src,
   position,
   dragStart,
