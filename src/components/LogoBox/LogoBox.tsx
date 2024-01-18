@@ -72,6 +72,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/react-original.svg"
         position="left-10 top-7"
+        animation="animate-bounce-one"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -80,6 +81,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/vuejs-original.svg"
         position="right-10 top-9"
+        animation="animate-bounce-two"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -88,6 +90,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/solidjs.svg"
         position="top-28 left-24"
+        animation="animate-bounce-one"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -96,6 +99,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/flutter-logo.svg"
         position="bottom-11 right-5"
+        animation="animate-bounce-two"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -104,6 +108,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/tailwindcss-plain.svg"
         position="top-32 right-6"
+        animation="animate-bounce-five"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -112,6 +117,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/angular_gradient.png"
         position="top-24 left-3"
+        animation="animate-bounce-four"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -120,6 +126,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/typescript.png"
         position="bottom-24 left-20"
+        animation="animate-bounce-six"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
@@ -128,6 +135,7 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       <Logo
         src="/images/logo/golang.png"
         position="bottom-10 left-10"
+        animation="animate-bounce-two"
         dragStart={dragStart}
         drag={drag}
         dragOver={dragOver}
