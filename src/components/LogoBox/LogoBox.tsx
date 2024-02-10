@@ -7,7 +7,7 @@ interface LogoBoxProps {
 export default function LogoBox({ areaName }: LogoBoxProps) {
   return (
     <div
-      class="grid grid-cols-3 items-center justify-items-center h-80"
+      class="grid grid-cols-3 items-center justify-items-start h-80 p-10"
       style={{ "grid-area": areaName }}
     >
       <Logo src="/images/logo/react-original.svg" />
