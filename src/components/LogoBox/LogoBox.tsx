@@ -1,5 +1,3 @@
-import { createSignal } from "solid-js";
-
 import Logo from "./Logo/Logo";
 
 interface LogoBoxProps {
