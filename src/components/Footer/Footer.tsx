@@ -4,7 +4,7 @@ export default function Footer() {
       <footer class="flex gap-2 items-center text-xs">
         <span>ⓒ</span>
         <span>tyange</span>
-        <span>2024</span>
+        <span>{new Date().getFullYear()}</span>
       </footer>
     </div>
   );
