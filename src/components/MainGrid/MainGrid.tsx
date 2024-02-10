@@ -10,7 +10,7 @@ import "./MainGrid.css";
 export default function MainGrid() {
   return (
     <main class="flex justify-center items-center" onDragOver={preventDragOver}>
-      <div id="main-grid" class="w-full h-screen grid">
+      <div id="main-grid" class="w-full h-screen flex flex-col md:grid">
         <Container areaName="header">
           <Header />
         </Container>
