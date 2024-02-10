@@ -11,6 +11,9 @@ export default function MainGrid() {
   return (
     <main class="flex justify-center items-center" onDragOver={preventDragOver}>
       <div id="main-grid" class="w-full h-screen grid">
+        <Container areaName="header">
+          <Header />
+        </Container>
         <Container areaName="introduction">
           <Introduction />
         </Container>
