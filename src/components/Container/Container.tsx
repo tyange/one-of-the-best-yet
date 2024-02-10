@@ -8,10 +8,10 @@ interface ContainerProps {
 export default function Container({ children, areaName }: ContainerProps) {
   return (
     <div
-      class="w-full h-full flex items-center justify-center"
+      class="w-full h-full flex items-center justify-center border"
       style={{ "grid-area": areaName }}
     >
-      <div class="w-full h-full border">{children}</div>
+      <div class="w-full h-full">{children}</div>
     </div>
   );
 }

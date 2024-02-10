@@ -5,17 +5,17 @@
 @media screen and (min-width: 768px) {
   #main-grid {
     grid-template-areas:
-      "header introduction introduction portfolio"
-      "header introduction introduction portfolio"
-      "career skills skills portfolio"
-      "career skills skills portfolio"
-      "career skills skills portfolio"
-      "career skills skills portfolio"
-      "logo-box skills skills portfolio"
-      "logo-box skills skills portfolio"
-      "logo-box skills skills portfolio"
-      "logo-box skills skills portfolio"
-      "logo-box skills skills portfolio"
+      "header introduction introduction introduction"
+      "header introduction introduction introduction"
+      "career portfolio portfolio portfolio"
+      "career portfolio portfolio portfolio"
+      "career portfolio portfolio portfolio"
+      "career portfolio portfolio portfolio"
+      "logo-box portfolio portfolio portfolio"
+      "logo-box portfolio portfolio portfolio"
+      "logo-box portfolio portfolio portfolio"
+      "logo-box portfolio portfolio portfolio"
+      "logo-box portfolio portfolio portfolio"
       "footer footer footer footer";
   }
 }

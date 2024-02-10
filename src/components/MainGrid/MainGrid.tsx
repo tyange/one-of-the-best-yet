@@ -12,7 +12,6 @@ export default function MainGrid() {
         <Container areaName="header">header</Container>
         <Container areaName="introduction">introduction</Container>
         <Container areaName="career">career</Container>
-        <Container areaName="skills">skills</Container>
         <Container areaName="portfolio">portfolio</Container>
         <LogoBox areaName="logo-box" />
         <Container areaName="footer">footer</Container>
