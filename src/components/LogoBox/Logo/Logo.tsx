@@ -1,5 +1,3 @@
-import { Accessor } from "solid-js";
-
 interface LogoProps {
   src: string;
 }
