@@ -1,15 +1,21 @@
 #main-grid {
-  grid-template-areas:
-    "header introduction introduction portfolio"
-    "header introduction introduction portfolio"
-    "career skills skills portfolio"
-    "career skills skills portfolio"
-    "career skills skills portfolio"
-    "career skills skills portfolio"
-    "logo-box skills skills portfolio"
-    "logo-box skills skills portfolio"
-    "logo-box skills skills portfolio"
-    "logo-box skills skills portfolio"
-    "logo-box skills skills portfolio"
-    "footer footer footer footer";
+  grid-template-areas: none;
+}
+
+@media screen and (min-width: 768px) {
+  #main-grid {
+    grid-template-areas:
+      "header introduction introduction portfolio"
+      "header introduction introduction portfolio"
+      "career skills skills portfolio"
+      "career skills skills portfolio"
+      "career skills skills portfolio"
+      "career skills skills portfolio"
+      "logo-box skills skills portfolio"
+      "logo-box skills skills portfolio"
+      "logo-box skills skills portfolio"
+      "logo-box skills skills portfolio"
+      "logo-box skills skills portfolio"
+      "footer footer footer footer";
+  }
 }

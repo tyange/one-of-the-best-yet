@@ -8,29 +8,14 @@ import "./MainGrid.css";
 export default function MainGrid() {
   return (
     <main class="flex justify-center items-center" onDragOver={preventDragOver}>
-      <div
-        id="main-grid"
-        class="grid grid-cols-4 grid-rows-12 w-screen lg:w-[1000px] h-screen py-20 gap-3"
-      >
-        <Container areaName="header" padding="p-3">
-          header
-        </Container>
-        <Container areaName="introduction" padding="p-3">
-          introduction
-        </Container>
-        <Container areaName="career" padding="p-3">
-          career
-        </Container>
+      <div id="main-grid" class="w-full h-screen grid">
+        <Container areaName="header">header</Container>
+        <Container areaName="introduction">introduction</Container>
+        <Container areaName="career">career</Container>
+        <Container areaName="skills">skills</Container>
+        <Container areaName="portfolio">portfolio</Container>
         <LogoBox areaName="logo-box" />
-        <Container areaName="skills" padding="p-3">
-          skills
-        </Container>
-        <Container areaName="portfolio" padding="p-3">
-          portfolio
-        </Container>
-        <Container areaName="footer" padding="p-3">
-          footer
-        </Container>
+        <Container areaName="footer">footer</Container>
       </div>
     </main>
   );
