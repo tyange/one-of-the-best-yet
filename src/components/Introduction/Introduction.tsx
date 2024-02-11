@@ -3,10 +3,12 @@ export default function Introduction() {
     <div class="p-10 w-full">
       <div class="flex flex-col gap-3 w-full mb-5">
         <div>
-          <span class="text-2xl font-semibold italic">유태양</span>
+          <span class="text-3xl font-semibold italic">유태양</span>
         </div>
         <div>
-          <a href="mailto:usun16@gmail.com">usun16@gmail.com</a>
+          <a href="mailto:usun16@gmail.com" class="text-xl">
+            usun16@gmail.com
+          </a>
         </div>
         <div>
           <ul class="flex gap-2">

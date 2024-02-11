@@ -1,6 +1,7 @@
 export default function Career() {
   return (
-    <div class="px-10 pt-10">
+    <div class="px-10 pt-10 pb-10 md:pb-0">
+      <p class="text-xl mb-7">경력</p>
       <ul>
         <li>
           <p class="text-sm">오토위니</p>

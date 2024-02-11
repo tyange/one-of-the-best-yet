@@ -3,6 +3,7 @@ import ProjectItem from "../ProjectItem/ProjectItem";
 export default function Portfolio() {
   return (
     <div class="p-10">
+      <p class="text-xl mb-7">포트폴리오</p>
       <ul>
         <li class="divide-y">
           <ProjectItem
