@@ -14,12 +14,13 @@ export default function LogoBox({ areaName }: LogoBoxProps) {
       >
         <Logo src="/images/logo/react-original.svg" />
         <Logo src="/images/logo/vuejs-original.svg" />
-        <Logo src="/images/logo/solidjs.svg" />
         <Logo src="/images/logo/flutter-logo.svg" />
-        <Logo src="/images/logo/tailwindcss-plain.svg" />
-        <Logo src="/images/logo/angular_gradient.png" />
+        <Logo src="/images/logo/solidjs.svg" />
+        <Logo src="/images/logo/javascript.png" />
         <Logo src="/images/logo/typescript.png" />
-        <Logo src="/images/logo/golang.png" />
+        <Logo src="/images/logo/css3.svg" />
+        <Logo src="/images/logo/tailwindcss-plain.svg" />
+        <Logo src="/images/logo/vite-logo.png" />
       </div>
     </div>
   );
