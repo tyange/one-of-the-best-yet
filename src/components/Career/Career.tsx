@@ -45,7 +45,7 @@ export default function Career() {
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                기존 차량 검색 페이지(JSP)를 대체하는 새로운 웹 페이지를 (Vue3,
+                기존 차량 검색 페이지(JSP)를 대체하는 새로운 웹 페이지를 (Vue,
                 SPA)로 개발 중.
               </span>
             </li>
