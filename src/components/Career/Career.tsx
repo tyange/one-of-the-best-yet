@@ -11,7 +11,7 @@ export default function Career() {
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                해상 물류 서비스의 페이지(SPA)의 해상 운임 견적 계산, 회원
+                해상 물류 서비스 페이지(React, SPA)의 해상 운임 견적 계산, 회원
                 가입과 로그인 등 유저 인증 기능을 개발.
               </span>
             </li>
@@ -25,28 +25,28 @@ export default function Career() {
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                해상 운임 견적 관리를 위한 레거시 관리자 페이지(SPA)를
-                Typescript로 전환하고 개발 환경을 Vite로 교체.
+                해상 운임 견적 관리를 위한 레거시 관리자 페이지(React, SPA)를
+                Typescript로 전환하고 Vite 기반으로 교체.
               </span>
             </li>
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                CRA로 만들어진 차량 매물 등록 서비스 유지 보수 및 Vite로
-                Migration 진행.
+                CRA로 만들어진 차량 매물 등록 서비스(React, SPA) 유지 보수 및
+                Vite 기반으로 Migration 진행.
               </span>
             </li>
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                관세사 면허 발급 대행 신규 서비스(SPA) 설계 및 개발.
+                관세사 면허 발급 대행 신규 서비스(React, SPA) 설계 및 개발.
               </span>
             </li>
             <li class="flex gap-2 items-center">
               <span class="text-xs">●</span>
               <span class="text-sm">
-                기존 차량 검색 페이지를 대체하는 새로운 웹 페이지를 SPA로 개발
-                중.
+                기존 차량 검색 페이지(JSP)를 대체하는 새로운 웹 페이지를 (Vue3,
+                SPA)로 개발 중.
               </span>
             </li>
           </ul>
@@ -57,7 +57,7 @@ export default function Career() {
             <br />
             tailwindcss, styled-components, MUI, ANTD,
             <br />
-            Webpack, Vite, Jenkins, Github Actions, Typescript...
+            Typescript, Webpack, Vite, Jenkins, Github Actions...
           </p>
         </li>
       </ul>
